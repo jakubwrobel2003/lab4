@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BtnOblicz" Content="Oblicz" HorizontalAlignment="Left" Margin="224,164,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="labelzad1" Content="Label" HorizontalAlignment="Center" Margin="0,291,0,0" VerticalAlignment="Top" Background="#FFD27272"/>
+        <Button x:Name="btnkula" Content="Button" HorizontalAlignment="Left" Margin="368,164,0,0" VerticalAlignment="Top" Click="btnkula_Click" Background="#FFE64848"/>
+        <Button x:Name="btnstozek" Content="Button" HorizontalAlignment="Left" Margin="461,174,0,0" VerticalAlignment="Top" Click="btnstozek_Click" Background="#FFE83A3A"/>
+
+    </Grid>
+</Window>
